@@ -10,8 +10,8 @@ import seaborn as sns
 # Load the trained model and preprocessing objects
 @st.cache_resource
 def load_model():
-    model = joblib.load('credit_risk_model.pkl')
-    preprocessor = joblib.load('preprocessor.pkl')
+    model = joblib.load('./credit_risk_model.pkl')
+    preprocessor = joblib.load('./preprocessor.pkl')
     return model, preprocessor
 
 model, preprocessor = load_model()
