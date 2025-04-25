@@ -2,3 +2,4 @@ joblib
 seaborn
 matplotlib
 pandas
+scikit-learn
